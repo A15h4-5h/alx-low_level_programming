@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 /**
- * main -  prints all possible combinations of single-digit numbers
+ * main -  Entry point
+ * Description: comb of numbers
  * Return: always 0
  */
 
 int main(void)
 
 {
-	int num;
+	int n;
 
-	for (num = 0; num <= 57; num++)
+	for (n = 0; n <= 9; n++)
 	{
-		putchar(num);
-		if (num == 57)
+		putchar((n % 10) + '0');
+		if (n == 9)
 		{
 			continue;
 		}
