@@ -1,8 +1,9 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
- * main - this is the main function
- * Return: 0
+ * main - entry point
+ * Description: prints char below 10
+ * Return: always 0
  */
 
 int main(void)
