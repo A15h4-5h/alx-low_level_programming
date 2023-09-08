@@ -8,16 +8,16 @@
 int main(void)
 
 {
-	int g;
+	int num;
 
-	for (g = 0; g <= 9; g++)
+	for (num = 0; num <= 9; num++)
 	{
-		putchar((g % 10) + '0');
-		if (g == 9)
+		putchar((num % 10) + '0');
+		if (num == 9)
 			continue;
 
 		putchar(',');
-		putchar('g');
+		putchar(num);
 	}
 
 	putchar('\n');
